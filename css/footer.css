@@ -1,0 +1,28 @@
+.footer {
+    background-color: var(--COR_2);
+    font-size: 20px;
+    color: black;
+    padding: 20px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contato_footer {
+    color: black;
+    display: flex;
+    flex-flow: column;
+    align-items: end;
+}
+
+.contato_footer a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    text-decoration: underline 1px;
+}
+
+.copy {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}

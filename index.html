@@ -5,10 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/filtro.css">
+    <link rel="stylesheet" href="./css/contato.css">
+    <link rel="stylesheet" href="./css/indisponivel.css">
+    <link rel="stylesheet" href="./css/footer.css">
 </head>
 
 <body>
+    <div class="bloqueio">
+        <p>Esse site não esta disponivel para celulares ainda</p>
+    </div>
     <section class="main">
         <header class="header">
             <div class="deco">
@@ -103,8 +110,234 @@
                     <div class="bolinha_header"></div>
                 </div>
             </section>
+            <img id="anuncio" src="./imagens/anuncio.jpeg" alt="anuncio" width="1600" height="244">
     </section>
     </header>
+    </section>
+    <section class="area_pesquisa">
+        <section class="filtro">
+            <h3 class="filtro_titulo">Filtros</h3>
+            <article class="categorias">
+                <article class="categoria_container">
+                    <h3>Categoria</h3>
+                    <svg width="17" height="12" viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M-1.15087e-05 1.70104L1.47916 -7.63447e-07L8.33332 7.88229L15.1875 -7.43549e-08L16.6667 1.70104L8.33332 11.2844L-1.15087e-05 1.70104Z"
+                            fill="black" />
+                    </svg>
+                </article>
+                <article class="filtros_categorias">
+                    <details class="categoria">
+                        <summary><svg width="17" height="12" viewBox="0 0 17 12" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" class="seta_pequena">
+                                <path
+                                    d="M-1.15087e-05 1.70104L1.47916 -7.63447e-07L8.33332 7.88229L15.1875 -7.43549e-08L16.6667 1.70104L8.33332 11.2844L-1.15087e-05 1.70104Z"
+                                    fill="black" />
+                            </svg>Banheiro</summary>
+                        <ul class="lista benheiro">
+                            <li>azulejos</li>
+                            <li>ralos</li>
+                            <li>chuveiros</li>
+                            <li>vasos</li>
+                            <li>pias</li>
+                        </ul>
+                    </details>
+                    <details class="categoria">
+                        <summary><svg width="17" height="12" viewBox="0 0 17 12" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" class="seta_pequena">
+                                <path
+                                    d="M-1.15087e-05 1.70104L1.47916 -7.63447e-07L8.33332 7.88229L15.1875 -7.43549e-08L16.6667 1.70104L8.33332 11.2844L-1.15087e-05 1.70104Z"
+                                    fill="black" />
+                            </svg>Eletrica</summary>
+                        <ul class="lista eletrica">
+                            <li>Fiação</li>
+                            <li>Tomadas</li>
+                            <li>lampadas</li>
+                        </ul>
+                    </details>
+                    <details class="categoria">
+                        <summary><svg width="17" height="12" viewBox="0 0 17 12" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" class="seta_pequena">
+                                <path
+                                    d="M-1.15087e-05 1.70104L1.47916 -7.63447e-07L8.33332 7.88229L15.1875 -7.43549e-08L16.6667 1.70104L8.33332 11.2844L-1.15087e-05 1.70104Z"
+                                    fill="black" />
+                            </svg>Materiais</summary>
+                        <ul class="lista Materiais">
+                            <li>Areias</li>
+                            <li>Pedras</li>
+                            <li>Massa Pronta</li>
+                            <li>pedragulho</li>
+                            <li>Madeiras</li>
+                        </ul>
+                    </details>
+                    <details class="categoria">
+                        <summary><svg width="17" height="12" viewBox="0 0 17 12" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" class="seta_pequena">
+                                <path
+                                    d="M-1.15087e-05 1.70104L1.47916 -7.63447e-07L8.33332 7.88229L15.1875 -7.43549e-08L16.6667 1.70104L8.33332 11.2844L-1.15087e-05 1.70104Z"
+                                    fill="black" />
+                            </svg>Ferramentas</summary>
+                        <ul class="lista ferramentas">
+                            <li>Pesadas</li>
+                            <li>Leves</li>
+                            <li>Pedreiro</li>
+                        </ul>
+                    </details>
+                    <p class="categoria">
+                    <p id="outros">Outros</p>
+                    </p>
+                </article>
+            </article>
+            <article class="preço">
+                <article class="preço_container">
+                    <h3>Preço</h3>
+                    <svg width="17" height="12" viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M-1.15087e-05 1.70104L1.47916 -7.63447e-07L8.33332 7.88229L15.1875 -7.43549e-08L16.6667 1.70104L8.33332 11.2844L-1.15087e-05 1.70104Z"
+                            fill="black" />
+                    </svg>
+                </article>
+
+                <p class="preço_seleção">R$0 - R$999</p>
+                <p class="preço_seleção">R$1000 - R$5000</p>
+
+            </article>
+            <article class="localidade">
+                <article class="localidade_container">
+                    <h3>Localidade</h3>
+                    <svg width="17" height="12" viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M-1.15087e-05 1.70104L1.47916 -7.63447e-07L8.33332 7.88229L15.1875 -7.43549e-08L16.6667 1.70104L8.33332 11.2844L-1.15087e-05 1.70104Z"
+                            fill="black" />
+                    </svg>
+                </article>
+                <p class="localização_seleção">R. Eduardo Peres</p>
+                <p class="localização_seleção">R. Duque de Caxias</p>
+            </article>
+        </section>
+        <section class="barra_pes">
+            <section class="barra_e_ordenar"></section>
+            <input type="text" placeholder="pesquisar" id="barra_pes">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
+                id="lupa_pes"><!-- Icon from HeroIcons by Refactoring UI Inc - https://github.com/tailwindlabs/heroicons/blob/master/LICENSE -->
+                <path fill="none" stroke="#979797" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                    d="m21 21l-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607" />
+            </svg>
+            <label for="ordenar" class="ordenar">Ordenar Por</label>
+            <select name="ordenar" id="ordenar" class="ordenar_escolhas">
+                <option value="nenhum" selected class="ordenar_escolha">nenhum</option>
+                <option value="preço" class="ordenar_escolha">preço ⇡</option>
+                <option value="preço" class="ordenar_escolha">preço ⇣</option>
+                <option value="quantidade" class="ordenar_escolha">quantidade ⇡</option>
+                <option value="quantidade" class="ordenar_escolha">quantidade ⇣</option>
+            </select>
+            <section class="filtros_ativos">
+                <article class="filtros_ativos_botões">
+                    <div class="filtros_ativos_botão">Materiais
+                        <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="X_filtros">
+                            <path
+                                d="M6.1 7.93333L2.23333 11.8C1.98889 12.0444 1.67778 12.1667 1.3 12.1667C0.922221 12.1667 0.611111 12.0444 0.366666 11.8C0.122222 11.5556 0 11.2444 0 10.8667C0 10.4889 0.122222 10.1778 0.366666 9.93333L4.23333 6.06667L0.366666 2.23333C0.122222 1.98889 0 1.67778 0 1.3C0 0.922223 0.122222 0.611111 0.366666 0.366667C0.611111 0.122222 0.922221 0 1.3 0C1.67778 0 1.98889 0.122222 2.23333 0.366667L6.1 4.23333L9.93333 0.366667C10.1778 0.122222 10.4889 0 10.8667 0C11.2444 0 11.5556 0.122222 11.8 0.366667C12.0667 0.633334 12.2 0.950222 12.2 1.31733C12.2 1.68444 12.0667 1.98978 11.8 2.23333L7.93333 6.06667L11.8 9.93333C12.0444 10.1778 12.1667 10.4889 12.1667 10.8667C12.1667 11.2444 12.0444 11.5556 11.8 11.8C11.5333 12.0667 11.2169 12.2 10.8507 12.2C10.4844 12.2 10.1787 12.0667 9.93333 11.8L6.1 7.93333Z"
+                                fill="black" />
+                        </svg>
+
+                    </div>
+                    <div class="filtros_ativos_botão">R$0 - R$999
+                        <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="X_filtros">
+                            <path
+                                d="M6.1 7.93333L2.23333 11.8C1.98889 12.0444 1.67778 12.1667 1.3 12.1667C0.922221 12.1667 0.611111 12.0444 0.366666 11.8C0.122222 11.5556 0 11.2444 0 10.8667C0 10.4889 0.122222 10.1778 0.366666 9.93333L4.23333 6.06667L0.366666 2.23333C0.122222 1.98889 0 1.67778 0 1.3C0 0.922223 0.122222 0.611111 0.366666 0.366667C0.611111 0.122222 0.922221 0 1.3 0C1.67778 0 1.98889 0.122222 2.23333 0.366667L6.1 4.23333L9.93333 0.366667C10.1778 0.122222 10.4889 0 10.8667 0C11.2444 0 11.5556 0.122222 11.8 0.366667C12.0667 0.633334 12.2 0.950222 12.2 1.31733C12.2 1.68444 12.0667 1.98978 11.8 2.23333L7.93333 6.06667L11.8 9.93333C12.0444 10.1778 12.1667 10.4889 12.1667 10.8667C12.1667 11.2444 12.0444 11.5556 11.8 11.8C11.5333 12.0667 11.2169 12.2 10.8507 12.2C10.4844 12.2 10.1787 12.0667 9.93333 11.8L6.1 7.93333Z"
+                                fill="black" />
+                        </svg>
+
+                    </div>
+                    <div class="filtros_ativos_botão">R. Eduardo Peres
+                        <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="X_filtros">
+                            <path
+                                d="M6.1 7.93333L2.23333 11.8C1.98889 12.0444 1.67778 12.1667 1.3 12.1667C0.922221 12.1667 0.611111 12.0444 0.366666 11.8C0.122222 11.5556 0 11.2444 0 10.8667C0 10.4889 0.122222 10.1778 0.366666 9.93333L4.23333 6.06667L0.366666 2.23333C0.122222 1.98889 0 1.67778 0 1.3C0 0.922223 0.122222 0.611111 0.366666 0.366667C0.611111 0.122222 0.922221 0 1.3 0C1.67778 0 1.98889 0.122222 2.23333 0.366667L6.1 4.23333L9.93333 0.366667C10.1778 0.122222 10.4889 0 10.8667 0C11.2444 0 11.5556 0.122222 11.8 0.366667C12.0667 0.633334 12.2 0.950222 12.2 1.31733C12.2 1.68444 12.0667 1.98978 11.8 2.23333L7.93333 6.06667L11.8 9.93333C12.0444 10.1778 12.1667 10.4889 12.1667 10.8667C12.1667 11.2444 12.0444 11.5556 11.8 11.8C11.5333 12.0667 11.2169 12.2 10.8507 12.2C10.4844 12.2 10.1787 12.0667 9.93333 11.8L6.1 7.93333Z"
+                                fill="black" />
+                        </svg>
+
+                    </div>
+                </article>
+                <div class="remove_filtro_btn">Remover Filtros</div>
+            </section>
+            <section class="itens">
+                <section class="cards">
+                    <article class="card">
+                        <img src="imagens/areia.webp" alt="imagem de uma areia" width="500" height="500">
+                        <p class="titulo_cards">Areia Grossa - 5KG</p>
+                        <p class="preço_cards">R$ 500</p>
+                    </article>
+                    <article class="card">
+                        <img src="imagens/areia.webp" alt="imagem de uma areia" width="500" height="500">
+                        <p class="titulo_cards">Areia Grossa - 5KG</p>
+                        <p class="preço_cards">R$ 500</p>
+                    </article>
+                    <article class="card">
+                        <img src="imagens/areia.webp" alt="imagem de uma areia" width="500" height="500">
+                        <p class="titulo_cards">Areia Grossa - 5KG</p>
+                        <p class="preço_cards">R$ 500</p>
+                    </article>
+                    <article class="card">
+                        <img src="imagens/areia.webp" alt="imagem de uma areia" width="500" height="500">
+                        <p class="titulo_cards">Areia Grossa - 5KG</p>
+                        <p class="preço_cards">R$ 500</p>
+                    </article>
+                    <article class="card">
+                        <img src="imagens/areia.webp" alt="imagem de uma areia" width="500" height="500">
+                        <p class="titulo_cards">Areia Grossa - 5KG</p>
+                        <p class="preço_cards">R$ 500</p>
+                    </article>
+                    <article class="card">
+                        <img src="imagens/areia.webp" alt="imagem de uma areia" width="500" height="500">
+                        <p class="titulo_cards">Areia Grossa - 5KG</p>
+                        <p class="preço_cards">R$ 500</p>
+                    </article>
+                    <article class="card">
+                        <img src="imagens/areia.webp" alt="imagem de uma areia" width="500" height="500">
+                        <p class="titulo_cards">Areia Grossa - 5KG</p>
+                        <p class="preço_cards">R$ 500</p>
+                    </article>
+                    <article class="card">
+                        <img src="imagens/areia.webp" alt="imagem de uma areia" width="500" height="500">
+                        <p class="titulo_cards">Areia Grossa - 5KG</p>
+                        <p class="preço_cards">R$ 500</p>
+                    </article>
+                </section>
+                <p id="paginas_numeros">&#10094;<span id="pagina_selecionada">1</span>-2-3-4-5-6...50&#10095;
+                </p>
+            </section>
+        </section>
+    </section>
+    <section class="contato_sec">
+        <section class="map_form">
+            <article class="form_container">
+                <p>Duvidas? Pedidos? Entre em contato!</p>
+                <form action="https://httpbin.org/post" , method="POST" class="contato_form">
+                    <input type="text" id="nome" name="nome" placeholder="Nome*" class="form_input">
+                    <input type="email" id="email" name="email" placeholder="Email*">
+                    <input type="text" id="telefone" name="telefone" placeholder="Telefone*">
+                    <textarea name="mensagem" id="mensagem" rows="10" cols="16" placeholder="Mensagem*"></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </article>
+            <article class="mapa"><iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d563.8488935879285!2d-49.877618880058684!3d-22.961677218429145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c019b7a5d7cfa3%3A0x833b5a36b6140f48!2sMM%20materiais%20para%20constru%C3%A7%C3%A3o!5e1!3m2!1spt-BR!2sbr!4v1770241299204!5m2!1spt-BR!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe></article>
+        </section>
+    </section>
+    <section class="footer">
+        <p class="copy">&copy; 2026 Luis Gustavo Del Bianco</p>
+        <p class="logo_header">MM</p>
+        <article class="contato_footer">
+            <a href="mailto:luisgustavogu2008@gmail.com">luisguguvine2008@gmail.com</a>
+            <a href="#"
+                onclick="navigator.clipboard.writeText('014997660914'); event.preventDefault(); alert('Copiado!');">(14)
+                99766-0914</a>
+        </article>
     </section>
 </body>
 
